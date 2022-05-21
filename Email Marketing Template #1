@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        #bestrosalogo {
+            margin-top: 10px;
+            max-height: 190px;
+            max-width: 600px;
+            position: absolute;
+            left: 100px;
+        }
+
+        #stormtrooperpot {
+            max-height: 230px;
+            max-width: 250px;
+            border: 3px solid grey;
+            position: absolute;
+            margin-top: 200px;
+            left: 20px;
+        }
+
+        #juniper-bonsai-tree {
+            max-height: 230px;
+            max-width: 250px;
+            border: 3px solid gray;
+            position: absolute;
+            margin-top: 200px;
+            right: 240px;
+        }
+
+        #darthvaderpot {
+            max-height: 230px;
+            max-width: 250px;
+            border: 3px solid gray;
+            position: absolute;
+            margin-top: 200px;
+            right: 1px;
+
+        }
+
+        #roundceramicpots {
+            max-height: 230px;
+            max-width: 250px;
+            border: 3px solid gray;
+            position: absolute;
+            margin-top: 500px;
+            right: 1px;
+        }
+
+        #facebookpage {
+            max-height: 30px;
+            bottom: 5px;
+            position: absolute;
+            right: 355px;
+
+        }
+
+        #facebookpage:hover {
+            background-color: rgb(0, 0, 195);
+            transition: 1.2s;
+            box-shadow: 0 12px 16px 0 rgb(10, 0, 202), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+
+        #mandalorianpot {
+            max-height: 230px;
+            max-width: 250px;
+            border: 3px solid gray;
+            position: absolute;
+            margin-top: 500px;
+            left: 220px;
+        }
+
+        #babyyoda {
+            max-height: 230px;
+            max-width: 250px;
+            border: 3px solid gray;
+            position: absolute;
+            margin-top: 500px;
+            left: 4px;
+        }
+
+
+
+
+
+
+        #stormtrooperbutton {
+            max-width: 100px;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 455px;
+            left: 55px;
+            box-shadow: 0 12px 16px 0 rgba(0, 165, 39, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: black;
+            color: aliceblue;
+        }
+
+        #stormtrooperbutton:hover {
+            background-color: rgba(153, 205, 50, 0.718);
+            transition: 1.3s;
+            border: 3px solid rgba(255, 255, 0, 0.344);
+        }
+
+        #juniperbonsaitreebutton {
+            max-width: 100px;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 455px;
+            left: 290px;
+            box-shadow: 0 12px 16px 0 rgba(0, 165, 39, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: black;
+            color: aliceblue;
+        }
+
+        #juniperbonsaitreebutton:hover {
+            background-color: rgba(153, 205, 50, 0.718);
+            transition: 1.3s;
+            border: 3px solid rgba(255, 255, 0, 0.344);
+        }
+
+        #darthvaderbutton {
+            max-width: 100px;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 455px;
+            left: 535px;
+            box-shadow: 0 12px 16px 0 rgba(0, 165, 39, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: black;
+            color: aliceblue;
+        }
+
+        #darthvaderbutton:hover {
+            background-color: rgba(153, 205, 50, 0.718);
+            transition: 1.3s;
+            border: 3px solid rgba(255, 255, 0, 0.344);
+        }
+
+
+        #babyyodabutton {
+            max-width: 100px;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 750px;
+            left: 55px;
+            box-shadow: 0 12px 16px 0 rgba(0, 165, 39, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: black;
+            color: aliceblue;
+        }
+
+        #babyyodabutton:hover {
+            background-color: rgba(153, 205, 50, 0.718);
+            transition: 1.3s;
+            border: 3px solid rgba(255, 255, 0, 0.344);
+        }
+
+        #mandalorianbutton {
+            max-width: 100px;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 750px;
+            left: 290px;
+            box-shadow: 0 12px 16px 0 rgba(0, 165, 39, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: black;
+            color: aliceblue;
+        }
+
+        #mandalorianbutton:hover {
+            background-color: rgba(153, 205, 50, 0.718);
+            transition: 1.3s;
+            border: 3px solid rgba(255, 255, 0, 0.344);
+        }
+
+        #threeceramicpotsbutton {
+            max-width: 100px;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 750px;
+            left: 535px;
+            box-shadow: 0 12px 16px 0 rgba(0, 165, 38, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: black;
+            color: aliceblue;
+        }
+
+        #threeceramicpotsbutton:hover {
+            background-color: rgba(153, 205, 50, 0.718);
+            transition: 1.3s;
+            border: 3px solid rgba(255, 255, 0, 0.344);
+        }
+
+
+
+
+
+
+        #stormtrooperdescription {
+            position: absolute;
+            font-size: 17px;
+            top: 170px;
+            left: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(0, 0, 0);
+        }
+
+        #bonsaitreedescription {
+            position: absolute;
+            font-size: 17px;
+            top: 170px;
+            left: 289px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(0, 0, 0);
+        }
+
+        #darthvaderdescription {
+            position: absolute;
+            font-size: 17px;
+            top: 170px;
+            left: 545px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(0, 0, 0);
+        }
+
+        #babyyodapotdescription {
+            position: absolute;
+            font-size: 17px;
+            top: 473px;
+            left: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(0, 0, 0);
+        }
+
+        #mandalorianpotdescription {
+            position: absolute;
+            font-size: 17px;
+            top: 473px;
+            left: 290px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(0, 0, 0);
+        }
+
+        #threeflowerpots {
+            position: absolute;
+            font-size: 17px;
+            top: 473px;
+            left: 510px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+    <!-----COMPANY LOGO-->
+    <img src="https://lh3.googleusercontent.com/pY6J770F2uUuCHfks8tNpga-8KCLrxZF8nI2A8ZccP7XQyoZo9Bha3x-xD8m8TXeaQJudVJ1lSZy57oHD6WTTn3v8Cy9t7naEX2cms8QxiCmDgbgX-n5aeeg9_fFbOpcmM2UHzsWArKOVLoA7j_ZVzjntkmCRqaiC0w60m6TGODeTwy4PrQ69-Km8J52qfnxHALw4eDUz5QPWVsITzRaB_XZnW0QPfsnOT96kBNC2xGgUMtueE9Y4dcydRFDpKKgnownaG0p_VbcvhmT4PWS3PK16ek5EpP17f9GJTjg7aoKfFcfn75qAtmTjD053O5V91OMov7AyyFvxIWHqcI5sF-bX2EftObLAQfnBCSzz5ZnJE87kC7hPjYTS0oWPBOYeofA2frNnYNDzp_air8K_4nFewkk35G5qShjRA9XF9otbuzbp2qHwEdpqKmF4bL_CN1cFoalTBKzsdza8tnCRJIpZmWZjInL4-SL6C8Cwf37LpoSlAs48eJQFzEl5y7j_wLGQVk3J5O6kPB60hS1vlADGGTcWdo8FQVFNLNCeRdLKJ2Xhpi9gPi2R7C7YonMpfiLTIaKa6zTNAWMa7pXGhqlLPB50k_-gVWAEODXnv2gf_XTJepnnDgNe8u3O0BeJRXF-Cd4vI6TrlRBMz5NL0jvk5NQpNODfmgA0WZh5cjlzS3O7Nw2sokXarli0wsTHBuFeXecjwTzbF3NzkB4eL2EDxhsoT8zo4YoIDo_W8ZbLjKcQDEG238L0pQaLN3Oykvl22_O0Um_IysT2mBmzpC7SI9MzhVCxLCuzbN0jcsEhr3vNf2c3W4txZHp7HcOZhzBZtrP4A=w616-h213-no?authuser=0"
+        alt="Best-Rosa-Logo" id="bestrosalogo">
+    <!-----COMPANY LOGO-->
+
+    <!----PRODUCT LIST-->
+    <a href="https://bestrosa.com/products/ministormtrooperpot" target="_blank">
+        <img src="https://cdn.shopify.com/s/files/1/0641/4080/4331/files/il_794xN.2802354283_56hv_900x.jpg?v=1651014819"
+            alt="cheap Star Wars storm trooper flower pot" id="stormtrooperpot">
+    </a>
+
+    <a href="https://bestrosa.com/products/juniper-bonsai-with-miniature-pond-pot" target="_blank">
+        <img src="https://cdn.shopify.com/s/files/1/0641/4080/4331/products/JuniperBonsaiWithMiniaturePondPot_1080x.jpg?v=1650907687"
+            alt="Bonsai Tree with miniature pond pot" id="juniper-bonsai-tree">
+    </a>
+
+    <a href="https://bestrosa.com/products/darthvaderpot" target="_blank">
+        <img src="https://cdn.shopify.com/s/files/1/0641/4080/4331/products/il_794xN.3478394308_r7ct_1080x.webp?v=1651010121"
+            alt="cheap Star Wars Darth Vader" id="darthvaderpot">
+    </a>
+
+    <a href="https://bestrosa.com/products/set-of-3-white-round-modern-ceramic-flower-pots-or-indoor-planter-pots"
+        target="_blank">
+        <img src="https://cdn.shopify.com/s/files/1/0641/4080/4331/products/il_794xN.2501837893_jqxf_1080x.webp?v=1650932360"
+            alt="Set of 3 Round Ceramic Flower Pots" id="roundceramicpots">
+    </a>
+
+    <a href="https://bestrosa.com/products/mandalorian-pot" target="_blank">
+        <img src="https://cdn.shopify.com/s/files/1/0641/4080/4331/products/Screenshot2022-04-27092508_1080x.png?v=1651066165"
+            alt="Star Wars Mandlorian Pot" id="mandalorianpot">
+    </a>
+
+    <a href="https://bestrosa.com/products/babyyodaplanterpot" target="_blank">
+        <img src="https://cdn.shopify.com/s/files/1/0641/4080/4331/products/41zOkEIQDZL._AC_900x.jpg?v=1650932711"
+            alt="cheap Star Wars Baby Yoda Planter Pot" id="babyyoda">
+    </a>
+
+
+    <!----PRODUCT LIST-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!---Buttons-->
+    <button id="stormtrooperbutton"
+        onclick="window.location.href = 'https://bestrosa.com/products/ministormtrooperpot';">
+        Learn More</button>
+
+    <button id="juniperbonsaitreebutton"
+        onclick="window.location.href = 'https://bestrosa.com/products/juniper-bonsai-with-miniature-pond-pot';">
+        Learn More</button>
+
+    <button id="darthvaderbutton" onclick="window.location.href = 'https://bestrosa.com/products/darthvaderpot';">
+        Learn More</button>
+
+    <button id="babyyodabutton" onclick="window.location.href = 'https://bestrosa.com/products/babyyodaplanterpot';">
+        Learn More</button>
+
+    <button id="mandalorianbutton" onclick="window.location.href = 'www.bestrosa.com/products/mandalorian-pot';">
+        Learn More</button>
+
+    <button id="threeceramicpotsbutton"
+        onclick="window.location.href = 'www.bestrosa.com/products/set-of-3-white-round-modern-ceramic-flower-pots-or-indoor-planter-pots';">
+        Learn More</button>
+    <!---Buttons-->
+
+
+    <!--Product description-->
+    <div>
+        <p id="stormtrooperdescription"> Stormtrooper Pot With Coaster </p>
+
+        <p id="bonsaitreedescription">Bonsai Tree With Pot </p>
+
+        <p id="darthvaderdescription">Darth Vader Pot</p>
+
+        <p id="babyyodapotdescription">Baby Yoda Planter Pot</p>
+
+        <p id="mandalorianpotdescription">Mandalorian Pot</p>
+
+        <p id="threeflowerpots">Three Ceramic Flower Pots</p>
+
+
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+
+</body>
+
+<footer>
+
+    <a href="https://www.facebook.com/BestRosaCo" target="_blank">
+        <img src="https://toppng.com//public/uploads/preview/gray-facebook-logo-png-11536002413lctvryrhnt.png"
+            alt="Our Facebook Page" id="facebookpage">
+    </a>
+</footer>
+
+</html>
