@@ -3,56 +3,69 @@
 
 <head>
     <style>
+
+
+        /* pictures */
+       
+        
+       
+        @media screen and (max-width: 500px) {
+            .responsive {
+                padding: 0px 20px;
+                background-color: rgb(255, 255, 255);
+            }
+        }
+
         #bestrosalogo {
-            margin-top: 10px;
-            max-height: 190px;
-            max-width: 600px;
+            width: 70%;
+            height: auto;
             position: absolute;
-            left: 100px;
+            margin-left: 16%;
         }
 
         #stormtrooperpot {
-            max-height: 230px;
-            max-width: 250px;
+            height: auto;
+            width: 25%;
             border: 3px solid grey;
             position: absolute;
-            margin-top: 200px;
-            left: 20px;
+            margin-top: 24%;
+            margin-left: 2%;
         }
 
         #juniper-bonsai-tree {
-            max-height: 230px;
-            max-width: 250px;
+            height: auto;
+            max-width: 32%;
             border: 3px solid gray;
             position: absolute;
-            margin-top: 200px;
-            right: 240px;
+            margin-top: 24.6%;
+            margin-left: 31.3%;
         }
 
         #darthvaderpot {
-            max-height: 230px;
-            max-width: 250px;
+            max-height: auto;
+            max-width: 32%;
             border: 3px solid gray;
             position: absolute;
-            margin-top: 200px;
-            right: 1px;
+            margin-top: 24.6%;
+            margin-left: 65%;
 
         }
 
         #roundceramicpots {
-            max-height: 230px;
-            max-width: 250px;
+            height: auto;
+            max-width: 32%;
             border: 3px solid gray;
             position: absolute;
-            margin-top: 500px;
-            right: 1px;
+            margin-top: 70%;
+            margin-left: 65.6%;
         }
 
         #facebookpage {
-            max-height: 30px;
-            bottom: 5px;
+            max-height: 4%;
+            max-width: auto;
+            margin-top: 118%;
             position: absolute;
-            right: 355px;
+            margin-left: 47%
 
         }
 
@@ -64,35 +77,41 @@
 
 
         #mandalorianpot {
-            max-height: 230px;
-            max-width: 250px;
+            height: auto;
+            min-width: 29%;
+            max-width: 32%;
             border: 3px solid gray;
             position: absolute;
-            margin-top: 500px;
-            left: 220px;
+            margin-top: 70%;
+            margin-left: 31.7%;
         }
 
         #babyyoda {
-            max-height: 230px;
-            max-width: 250px;
+            height: auto;
+            min-width: 29%;
+            max-width: 32%;
             border: 3px solid gray;
             position: absolute;
-            margin-top: 500px;
-            left: 4px;
+            margin-top: 70%;
+            margin-left: 0%;
         }
 
 
 
+
+
+
+/* buttons */
 
 
 
         #stormtrooperbutton {
-            max-width: 100px;
-            width: 100px;
+            min-width: auto;
+            width: 13%;
             height: 30px;
             position: absolute;
-            top: 455px;
-            left: 55px;
+            margin-top: 59%;
+            margin-left: 9.5%;
             box-shadow: 0 12px 16px 0 rgba(0, 165, 39, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             background-color: black;
             color: aliceblue;
@@ -105,12 +124,12 @@
         }
 
         #juniperbonsaitreebutton {
-            max-width: 100px;
-            width: 100px;
+            min-width: auto;
+            width: 13%;
             height: 30px;
             position: absolute;
-            top: 455px;
-            left: 290px;
+            margin-top: 59%;
+            margin-left: 42.1%;
             box-shadow: 0 12px 16px 0 rgba(0, 165, 39, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             background-color: black;
             color: aliceblue;
@@ -123,12 +142,12 @@
         }
 
         #darthvaderbutton {
-            max-width: 100px;
-            width: 100px;
+            min-width: auto;
+            width: 13%;
             height: 30px;
             position: absolute;
-            top: 455px;
-            left: 535px;
+            margin-top: 59%;
+            margin-left: 75.2%;
             box-shadow: 0 12px 16px 0 rgba(0, 165, 39, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             background-color: black;
             color: aliceblue;
@@ -142,12 +161,12 @@
 
 
         #babyyodabutton {
-            max-width: 100px;
-            width: 100px;
+            min-width: auto;
+            width: 13%;
             height: 30px;
             position: absolute;
-            top: 750px;
-            left: 55px;
+            margin-top: 105.7%;
+            margin-left: 8.4%;
             box-shadow: 0 12px 16px 0 rgba(0, 165, 39, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             background-color: black;
             color: aliceblue;
@@ -160,12 +179,12 @@
         }
 
         #mandalorianbutton {
-            max-width: 100px;
-            width: 100px;
+            min-width: auto;
+            width: 13%;
             height: 30px;
             position: absolute;
-            top: 750px;
-            left: 290px;
+            margin-top: 105.7%;
+            margin-left: 42%;
             box-shadow: 0 12px 16px 0 rgba(0, 165, 39, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             background-color: black;
             color: aliceblue;
@@ -178,13 +197,13 @@
         }
 
         #threeceramicpotsbutton {
-            max-width: 100px;
-            width: 100px;
+            min-width: auto;
+            width: 13%;
             height: 30px;
             position: absolute;
-            top: 750px;
-            left: 535px;
-            box-shadow: 0 12px 16px 0 rgba(0, 165, 38, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-top: 105.7%;
+            margin-left: 75.2%;
+            box-shadow: 0 12px 16px 0 rgba(0, 165, 39, 0.376), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             background-color: black;
             color: aliceblue;
         }
@@ -197,70 +216,80 @@
 
 
 
+        /* picture description */
 
 
 
         #stormtrooperdescription {
+            margin-top: 21.5%;
             position: absolute;
-            font-size: 17px;
-            top: 170px;
-            left: 20px;
+            height: auto;
+            margin-left: 1%;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: rgb(0, 0, 0);
+            font-size: 15px;
         }
 
         #bonsaitreedescription {
+            margin-top: 21.5%;
             position: absolute;
-            font-size: 17px;
-            top: 170px;
-            left: 289px;
+            font-size: 15px;
+            margin-left: 40%;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: rgb(0, 0, 0);
+            
         }
 
         #darthvaderdescription {
+            margin-top: 21.5%;
+            max-width: auto;
             position: absolute;
-            font-size: 17px;
-            top: 170px;
-            left: 545px;
+            font-size: 15px;
+            margin-left: 75%;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: rgb(0, 0, 0);
         }
 
         #babyyodapotdescription {
+            margin-top: 67%;
+            max-width: auto;
             position: absolute;
-            font-size: 17px;
-            top: 473px;
-            left: 40px;
+            font-size: 15px;
+            margin-left: 6%;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: rgb(0, 0, 0);
         }
 
         #mandalorianpotdescription {
+            margin-top: 67%;
+            max-width: auto;
             position: absolute;
-            font-size: 17px;
-            top: 473px;
-            left: 290px;
+            font-size: 15px;
+            margin-left: 41.5%;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: rgb(0, 0, 0);
         }
 
         #threeflowerpots {
+            margin-top: 67%;
+            max-width: auto;
             position: absolute;
-            font-size: 17px;
-            top: 473px;
-            left: 510px;
+            font-size: 15px;
+            margin-left: 70.5%;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: rgb(0, 0, 0);
         }
     </style>
     <!-----COMPANY LOGO-->
-    <img src="https://lh3.googleusercontent.com/pY6J770F2uUuCHfks8tNpga-8KCLrxZF8nI2A8ZccP7XQyoZo9Bha3x-xD8m8TXeaQJudVJ1lSZy57oHD6WTTn3v8Cy9t7naEX2cms8QxiCmDgbgX-n5aeeg9_fFbOpcmM2UHzsWArKOVLoA7j_ZVzjntkmCRqaiC0w60m6TGODeTwy4PrQ69-Km8J52qfnxHALw4eDUz5QPWVsITzRaB_XZnW0QPfsnOT96kBNC2xGgUMtueE9Y4dcydRFDpKKgnownaG0p_VbcvhmT4PWS3PK16ek5EpP17f9GJTjg7aoKfFcfn75qAtmTjD053O5V91OMov7AyyFvxIWHqcI5sF-bX2EftObLAQfnBCSzz5ZnJE87kC7hPjYTS0oWPBOYeofA2frNnYNDzp_air8K_4nFewkk35G5qShjRA9XF9otbuzbp2qHwEdpqKmF4bL_CN1cFoalTBKzsdza8tnCRJIpZmWZjInL4-SL6C8Cwf37LpoSlAs48eJQFzEl5y7j_wLGQVk3J5O6kPB60hS1vlADGGTcWdo8FQVFNLNCeRdLKJ2Xhpi9gPi2R7C7YonMpfiLTIaKa6zTNAWMa7pXGhqlLPB50k_-gVWAEODXnv2gf_XTJepnnDgNe8u3O0BeJRXF-Cd4vI6TrlRBMz5NL0jvk5NQpNODfmgA0WZh5cjlzS3O7Nw2sokXarli0wsTHBuFeXecjwTzbF3NzkB4eL2EDxhsoT8zo4YoIDo_W8ZbLjKcQDEG238L0pQaLN3Oykvl22_O0Um_IysT2mBmzpC7SI9MzhVCxLCuzbN0jcsEhr3vNf2c3W4txZHp7HcOZhzBZtrP4A=w616-h213-no?authuser=0"
+    <img src="https://lh3.googleusercontent.com/tnbdUU_9knj__TKc98uAtCcucXLs-P3ZJYEpXTwV2v7LtyXEwU1TkDD_jEk9JAqBP1oGvWjbmLdqHCNKwe9DAYm2U4p-4OwNJSebr4wdsyilMAcB1xaXdOtdU1xMW5tk37bBa0nrjABrbrR1e7Fi4yzlgm5gnNzLxfjjhRrEtlZ9yPaott-5cZdB7ZQjTH1ODP8OFQyKjvdVuxHQCy0av2G10IajGXEXUQWwzMdNJJyUGBzOGkDuBpmafJ0GCNM7VNRfDciLN7PWd66J_4k044H390l3hOm5O8zeTIShAOGGq7k5u0RJp1z_WY1FtXlkPrYQmXZY8o9Fm4jGjpmke7j5D4ILA5pBES25UEVtmy1IrMRO350MhaB_qvmmIHXb3TRwm1xVDcRsJWmGmnzq7uXhDHuSk0UunHblHd50z0RGk4djVTwtXuYxcst5CjIfa0FpwVVincl2HqHL8ZKACEBUmf_P73tvtZ4qQeK06LxHizaKk5Y-hx8ws0CrB3nVtZcpT8sxQJ1XneiTJxt4tqDh_KzKsdLG8I2_by8FYvqZ67BSHkRgZwRqwFebEV7r5Ptz2sV9j7EwAfPJZFDOgP_PH16My-IzPWg5Y2etHq7xGw2ZLUcp_a4YsQ0E7nCINNy5YS5QPDeTmRbeKAZKhLKsK7EQN1fT-ALuS9kZ_YhNiHu0QV3vc_xd0Rnc6cnVL1IvPy53CDuScq0ap1rDuMgnlPA0ZZhx0ZaYoheaEoebCoT5RyGHzvevNE2wqCvAEKXlpkYL0XPuT8lPRm7B0EdlSl49W5noXLb6scESG_zHMRhJUYHoaJc8UZzqaziBoflbNcZZAg=w616-h213-no?authuser=0"
         alt="Best-Rosa-Logo" id="bestrosalogo">
     <!-----COMPANY LOGO-->
 
     <!----PRODUCT LIST-->
-    <a href="https://bestrosa.com/products/ministormtrooperpot" target="_blank">
+    
+    <div class="responsive">
+    
+     <a href="https://bestrosa.com/products/ministormtrooperpot" target="_blank">
         <img src="https://cdn.shopify.com/s/files/1/0641/4080/4331/files/il_794xN.2802354283_56hv_900x.jpg?v=1651014819"
             alt="cheap Star Wars storm trooper flower pot" id="stormtrooperpot">
     </a>
@@ -290,18 +319,20 @@
         <img src="https://cdn.shopify.com/s/files/1/0641/4080/4331/products/41zOkEIQDZL._AC_900x.jpg?v=1650932711"
             alt="cheap Star Wars Baby Yoda Planter Pot" id="babyyoda">
     </a>
-
+</div>
 
     <!----PRODUCT LIST-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 
 <body>
 
     <!---Buttons-->
+    <div class="responsive">
     <button id="stormtrooperbutton"
         onclick="window.location.href = 'https://bestrosa.com/products/ministormtrooperpot';">
         Learn More</button>
@@ -322,11 +353,13 @@
     <button id="threeceramicpotsbutton"
         onclick="window.location.href = 'www.bestrosa.com/products/set-of-3-white-round-modern-ceramic-flower-pots-or-indoor-planter-pots';">
         Learn More</button>
+
+        </div>
     <!---Buttons-->
 
 
     <!--Product description-->
-    <div>
+    <div class="responsive">
         <p id="stormtrooperdescription"> Stormtrooper Pot With Coaster </p>
 
         <p id="bonsaitreedescription">Bonsai Tree With Pot </p>
@@ -351,11 +384,12 @@
 </body>
 
 <footer>
-
+<div class="responsive">
     <a href="https://www.facebook.com/BestRosaCo" target="_blank">
         <img src="https://toppng.com//public/uploads/preview/gray-facebook-logo-png-11536002413lctvryrhnt.png"
             alt="Our Facebook Page" id="facebookpage">
     </a>
+</div>
 </footer>
 
 </html>
